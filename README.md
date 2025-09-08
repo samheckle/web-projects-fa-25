@@ -1,7 +1,7 @@
 # Syllabus
 
 ## Class Info
-MEDP-341 Web Programming  
+MEDP-341 Web Projects  
 Mon 2-4:50pm Eastern Time  
 3 Credits  
 Fall 2025  
