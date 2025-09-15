@@ -47,8 +47,14 @@ Due 10/6
 Using HTML, CSS, and JavaScript, create a screensaver that lives in the web browser. You are welcome to use CSS Animations or animations in p5.js. You should only use one HTML page. Think about screensavers as the moment where the computer rests without the control of the user. 
 
 ### Deliverables
-Due 9/29: Project #2 Concept  
-Come up with a concept for your project and write documentation about it. Include a short description, 1 -2 sketches, and references of relevant projects. 
+Due 9/29: Project #2 Readings & Concept  
+Complete the following readings and write a short 300 word response:
+* Marius Watz, [Screensaver Culture](https://www.are.na/block/2707490)
+* Olia Lialina, [Vernacular Web Part I](https://art.teleportacia.org/observation/vernacular/)
+     * Be sure to click through the next buttons at the bottom of the page.
+* Olia Lialina, [Vernacular Web Part II](https://contemporary-home-computing.org/vernacular-web-2/)
+  
+Based on the readings, come up with a concept for your project and write documentation about it. Include a short description, 1 -2 sketches, and references of relevant projects. 
 
 Due 10/6: Project #2  
 Project is due, with a link to your Hunter server inside `project2/`.
@@ -59,7 +65,6 @@ Project is due, with a link to your Hunter server inside `project2/`.
 ### Examples & Inspiration
 * Aidan Quinlan, [Blind Sunset](https://aidanquinlan.net/hub/f18/sketches/blindsunset/index.html)
 * Lian Fumerton-Liu, Colin Dunn, [Tide Machine](https://www.lian.land/tide-machine/)
-* Marius Watz, [Screensaver Culture](https://www.are.na/block/2707490)
   
 ## Project #3: Midterm
 Due 10/27
