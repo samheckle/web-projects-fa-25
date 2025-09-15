@@ -48,7 +48,7 @@ Using HTML, CSS, and JavaScript, create a screensaver that lives in the web brow
 
 ### Deliverables
 Due 9/29: Project #2 Concept  
-Come up with a concept for your project and write documentation bout it. Include a short description, 1 -2 sketches, and references of relevant projects. 
+Come up with a concept for your project and write documentation about it. Include a short description, 1 -2 sketches, and references of relevant projects. 
 
 Due 10/6: Project #2  
 Project is due, with a link to your Hunter server inside `project2/`.
@@ -57,7 +57,10 @@ Project is due, with a link to your Hunter server inside `project2/`.
     2) A link to your code (on github)
     3) Documentation (see documentation notes)
 ### Examples & Inspiration
-
+* Aidan Quinlan, [Blind Sunset](https://aidanquinlan.net/hub/f18/sketches/blindsunset/index.html)
+* Lian Fumerton-Liu, Colin Dunn, [Tide Machine](https://www.lian.land/tide-machine/)
+* Marius Watz, [Screensaver Culture](https://www.are.na/block/2707490)
+  
 ## Project #3: Midterm
 Due 10/27
 Build a forum or blog site for a community. Your community will be the client who has commissioned you to design and develop a public-facing site.   
