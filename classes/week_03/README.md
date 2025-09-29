@@ -1,13 +1,17 @@
 # Week 03 9/29/25
 
-**No class 9/22**
-
 ## Agenda
 
-1. Reading Discussion
-2. Project #2 Concept Share
-3. Events and Time
-4. p5.js into websites
+1. Digital Ocean Check-In
+2. Reading Discussion
+3. Project #2 Concept Share
+4. Events and Time
+5. p5.js into websites
+
+## Digital Ocean Check-In
+1. By this point, you should have a digital ocean account set up. Navigate to https://digitalocean.com/ and log in using your preferred method. 
+2. Go to https://cloud.digitalocean.com/. We need to create a project under the "Projects" tab in the sidebar. Make a project called `web-projects`. 
+3. Try to make a droplet and see if it prompts for any extra information.
 
 ## Reading Discussion
 
@@ -60,7 +64,7 @@ We should be spending ~20 min per person. If you aren't getting to 20 minutes, g
 
 * think about aesthetic decisions being made: how were these decided? can you imagine a world where these choices might be different?
     * ex. what if time used 100 seconds instead of 60 seconds to determine a minute? would the project be different?
-* play with form, scale, tone, purpose, metaphor, theme
+* play with form, scale, tone (funny? sad? serious?), purpose, metaphor, theme
 
 ## Lecture: Events
 
@@ -146,3 +150,4 @@ This is useful if you need to keep track of time in your code for any reason. Fo
 **You can find the full reference for the `Date` class [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date).**
 
 *One important thing to note about `Date` is the fact that it accesses the time of the user’s computer, not the server time. So, if two users access your website from different timezones and you don’t do any time zone conversion, this will return different times. Similarly, if someone’s computer year is for some reason set to 1980, the `Date` object will follow that.*
+
