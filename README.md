@@ -97,10 +97,10 @@ Note: There may be instances where having an extension may result in not being a
 | 9/8 | <ul><li> Intros <li> HTML/CSS <li> Command Line Interface <li> GitHub <li> Uploading to SFTP | Due 9/15 <ul><li>Project #1
 | 9/15 | <ul><li> Review Project #1 <li> DOM and JavaScript <li>VOE Due, Withdrawal Starts 9/16 | Due 9/29 <ul><li>Project #2 Concept
 | 9/22 | ***No Class*** |
-| 9/29 | <ul><li> Incorporating p5.js into our sites <li> Events and Time | Due 10/6 <ul><li>Project #2
-| 10/6 | <ul><li> Review Project #2 <li> Responsive Design - Box Model + FlexBox | Due 10/14 <ul><li>Project #3 Concept
+| 9/29 | <ul><li> Events and Time | Due 10/6 <ul><li>Project #2
+| 10/6 | <ul><li> Review Project #2 <li> Introduction to Servers | Due 10/14 <ul><li>Project #3 Concept
 | 10/13 | ***No Class*** - Tuesday follows Monday schedule |
-| 10/14 - Tuesday | <ul><li> Review Project #3 Concept <li> Introduction to Servers | Due 10/27 <ul> <li> Project #3 - Midterm
+| 10/14 - Tuesday | <ul><li> Review Project #3 Concept <li> Responsive Design - Box Model + FlexBox | Due 10/27 <ul> <li> Project #3 - Midterm
 | 10/20 | ***No Class*** - Friday follows Monday schedule |
 | 10/24 - Friday | <ul><li> Intro to Templating | Due 10/27 <ul> <li> Project #3 - Midterm
 | 10/27 | <ul><li>Project #3 - Midterm |
@@ -109,7 +109,7 @@ Note: There may be instances where having an extension may result in not being a
 | 11/17 | <ul><li> Review Project #4 <li> Browser Storage <li> Databases | Due 12/1 <ul><li> Book 1:1 Check in <li> Project #5 Concept
 | 11/24 | <ul><li> More databases | Due 12/1 <ul><li> Book 1:1 Check in <li> Project #5 Concept
 | 12/1 | <ul><li>1:1 Check Ins</ul> | Due 12/15 <ul><li> Project #5
-| 12/8 | <ul><li> Front-End Frameworks (React, Vue, Next, TypeScript) <li> Open Interest Session | Due 12/15 <ul><li> Project #5
+| 12/8 | <ul><li> Front-End Frameworks (React, Vue, Next, TypeScript)  <li> Incorporating p5.js into our sites  <li> Open Interest Session | Due 12/15 <ul><li> Project #5
 | 12/15 | <ul><li>Project #5 - Final <li>Last Day of Class</ul>
 
 ## ACADEMIC INTEGRITY STATEMENT:  

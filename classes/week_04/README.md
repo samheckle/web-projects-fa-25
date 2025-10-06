@@ -21,6 +21,27 @@ Follow the observe-analyze-interpret-evaluate system. it is similar to praise-qu
 
 ## Introduce Project 3
 
+### Project Research
+
+* [where do you get your inspo?](https://cryptpad.fr/pad/#/2/pad/edit/1BXYYVm3pwBf2NAhp8XLqGrq/)
+* ongoing [are.na channel](https://www.are.na/sam-heckle/_web-jghsnohy78q) for the class. feel free to make an account and add to this throughout the semester.
+
+### Sitemaps vs. Wireframes
+
+#### Sitemap
+
+A sitemap should be an outline of all your pages and how they are connected to one another. This is an entire overview of all the pages on your site. 
+
+![sitemap](https://kagi.com/proxy/sitemap-examples.png?c=VVmRo2dNiFtn5mV8XjOcEOpQTyCCPiyRwVRDu65IDKTjLvYdbIlPrVnPiSXPs6M6kbuY_YHjhd1CmZaI5b7hkm5gHZHbqoaOTJCd1g2WKiw%3D)
+
+#### Wireframe
+
+A wireframe is an outline of how the data is organized on a webpage. 
+
+![wireframe](https://kagi.com/proxy/images?c=_m3km2RjA3G0qleowsZXHZb9NEn0fSsEYIHbKzMDyAFb4nUPIanknmQV_g0rmdCIQ-HZfA6ogzXwkcHxjyc5992x4vrNpFA5kWqUsxsK5ZhkM90YKVLqWs1VxTBk-e8isUMozWO1UT6rWlWtmDWdkw%3D%3D)
+
+For your midterm, it is expected to make sketches of 1 sitemap, and 1+ wireframe(s). This will count as your "sketch" component of your project. 
+
 ## Virtual Machines and Digital Ocean
 
 |Web Infrastructure| Google Drive | Hunter SFTP | Digital Ocean | 
