@@ -91,10 +91,10 @@ Inside of our `webserver/` folder, we will need to initialize a node project. Na
 
 ---
 
-<details>
+<details open>
 <summary> 
 
-#### Command line (CLI) basics 
+Command line (CLI) basics 
 </summary>
 
 Since we don’t get a graphical user interface for interacting with our server, you will need to become familiar with the command line. Fortunately, 5-6 commands can get you pretty far. The most important ones we will use are:
