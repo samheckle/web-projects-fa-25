@@ -9,6 +9,21 @@
 
 ## Project #3 Concept & Feedback
 
+5 min without talking to the other person, sketch out their idea:  
+
+* how are you interpreting what they are conceptualizing?
+* what is working for you? what isn’t?
+* what would you change?
+
+5 min each to share between partners:
+
+* present how are you interpreting this project
+* what is confusing? what do you have questions about?
+* what ideas do you have to improve this project? 
+* what references do you think would be useful for them?
+
+In the replies of the discussion post: upload a photo of your sketch + write your feedback
+
 ## Introduction to Servers
 ### Node.js, npm, and Express
 
