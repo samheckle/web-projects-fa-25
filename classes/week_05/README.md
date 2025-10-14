@@ -6,6 +6,7 @@
 2. Project #3 Concept & Feedback
 3. Introduction to Servers
 4. Setting up our API requests
+5. Multiple servers on our droplet
 
 ## Project #3 Concept & Feedback
 
@@ -143,6 +144,24 @@ This is an anonymous function that takes two parameters `(request, response) => 
 These are automatically populated by Express for us to use. 
 We can send a response using [`response.send()`](https://expressjs.com/en/5x/api.html#res.send). This allows us to send html inside of strings to format our code. 
 
+We can also redirect the route to another route
+```js
+res.redirect('/')
+```
+
+We can also send html files
+```js
+// allows us to mask html files with a route instead
+app.get('/guestbook', (req, res)=>{
+    res.sendFile('assets/guestbook.html', {root: __dirname })
+})
+```
+
+And json responses, which are useful to construct an API in the next section.
+```js
+res.json({notes: allNotes})
+```
+
 ---
 
 5. Listen for requests  
@@ -221,3 +240,25 @@ function success(res){
     }
 }
 ```
+
+## Multiple servers on our droplet
+
+Right now, if we `ssh` into our droplet, we see 1 server running with `pm2 ls`
+```sh
+root@sam-web-projects:~# pm2 ls
+┌────┬────────────────────┬──────────┬──────┬───────────┬──────────┬──────────┐
+│ id │ name               │ mode     │ ↺    │ status    │ cpu      │ memory   │
+├────┼────────────────────┼──────────┼──────┼───────────┼──────────┼──────────┤
+│ 0  │ server             │ fork     │ 0    │ online    │ 0%       │ 40.2mb   │
+└────┴────────────────────┴──────────┴──────┴───────────┴──────────┴──────────┘
+```
+
+In order to run our project3, we need to run an additional server.
+1. Upload your files to `root/project3/`. Do not include `node_modules/`.
+2. `ssh` into your droplet.
+3. Navigate to your `project3/` folder using `cd`.
+4. Check your server is working by running `node server.js`
+    * we always do this in order to see error messages.
+    * `MODULE_NOT_FOUND` means you need to run `npm install`.
+5. Run your server using `pm2 start server.js --name project3`
+6. Ensure your server is running in the browser. Make sure to include the port in the address like `http://161.35.9.118:3001` or whatever port number you used inside your `server.js`

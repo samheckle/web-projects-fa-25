@@ -18,9 +18,10 @@ app.get('/', (request, response)=>{
     response.send('server is working')
 })
 
-// app.get('/guestbook', (req, res)=>{
-//     res.sendFile(path.join(__dirname, 'assets/guestbook.html'))
-// })
+// allows us to mask html files with a route instead
+app.get('/guestbook', (req, res)=>{
+    res.sendFile('assets/guestbook.html', {root: __dirname })
+})
 
 app.get('/submit', (req, res)=>{
     console.log(req.query)
