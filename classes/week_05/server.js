@@ -11,6 +11,7 @@ app.use(express.static('assets'))
 
 // 3a. global variables for server storage
 let allNotes = []
+let postNum = 0
 
 // 4. routing
 // this determines what responses the server gives based on what requests come in
@@ -37,10 +38,12 @@ app.get('/submit', (req, res)=>{
     const messageData = {
         username: user,
         message: message,
-        date: time
+        date: time,
+        postNumber: postNum
     }
 
     allNotes.push(messageData)
+    postNum++
 
     // res.send('thank you for submitting, ' + user)
     res.redirect('/')
@@ -61,6 +64,19 @@ app.get('/all-messages', (req, res)=>{
     // we are no longer sending a string, we are now sending a json object
     // it is cumbersome to have to write html as a string
     res.json({notes: allNotes})
+})
+
+app.delete('/delete/:id', (req, res)=>{
+      // splice
+    data.forEach((d) => {
+      console.log(d.postNumber);
+      console.log(req.params.id);
+      if (d.postNumber == req.params.id) {
+        data.splice(req.params.id, 1);
+      }
+    });
+
+  res.redirect("/all-messages");
 })
 
 // 5. set the app to listen to requests
