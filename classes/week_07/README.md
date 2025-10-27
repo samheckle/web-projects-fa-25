@@ -100,11 +100,29 @@ We are going to practice responsiveness, along with practicing how to make a pul
 1. First, we want to make a "fork" of your partners repository. 
 ![fork](../../images/fork.png)
 
+Once you have forked the repo, you are going to go to the repository *you* created on *your* account.
+
 2. Next, you are going to clone that repository to your computer. We need to grab the url we are going to `clone`
 ![clone-url](../../images/clone-url.png)
 
-3. Usually I put new repositories into my `dev/` folder, but you can put it wherever you want on your computer. We can do this inside of our dev folder and then use `git clone` to clone the repo
+3. Usually I put new repositories into my `dev/` folder, but you can put it wherever you want on your computer. We can do this inside of our dev folder and then use `git clone` to clone the repo. 
+
+Open your terminal and run the commands to get into your dev folder and clone the repo.
 ```sh
-
-
+cd dev
+git clone git@github.com:samheckle/web-projects-fa-25.git
 ```
+
+4. Complete your assignment to make a responsive website.
+
+5. Push your code using our git commands, to *your* repository.
+
+6. Go back to your partners repository, and go to the pull request menu and make a pull request (PR)
+![pr](../../images/pr.png)
+![make pr](../../images/make-pr.png)
+
+7. Your partner should "review" your code and if they are ok with it. You will do the same with the code they wrote for you. You can test their code using [this github tutorial](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally) of making a new branch from their PR. 
+
+8. Once you are satisfied with the code, you can merge their pull request.
+
+9. Once merged, you need to pull the new code by running `git pull`.
