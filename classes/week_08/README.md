@@ -53,6 +53,10 @@ If you are missing any of these, type. The name inside the quotes should be the 
 ```sh
 sudo ufw allow 'Nginx HTTP' 
 ```
+If `sudo ufw status` says 'Status: inactive', run
+```sh
+sudo ufw enable
+```
 2. Set up server blocks
 ```sh
 sudo vim /etc/nginx/sites-available/your_domain
