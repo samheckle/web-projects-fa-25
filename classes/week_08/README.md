@@ -161,12 +161,11 @@ But, they do have free courses online that will cover pretty much everything I w
 To begin our new vue projects, we have a little bit of a different starting point. After our `npm init -y`, we need to create a starter folder with all the vue setups. 
 
 ```sh
-npm create vue@latest .
+npm create vue@latest
 ```
 
 * `create` allows us to setup all the vue files
 * `vue@latest` installs the most recent version
-* `.` installs it in the current project folder
 
 Now we have a folder pre-built with a bunch of different settings. Looking at our `package.json`, there are a couple of new scripts:
 
@@ -187,6 +186,8 @@ This will build and create a `./dist/` folder. If we look in this folder, there 
 
 Another option to build the `./dist/` is running run `vite build`. Another thing that is helpful here is to use the `--watch` flag. We can include that in the npm scripts: `"build": "vite build --watch"`, or we can run the `vite build --watch` command. It is really up to personal preference. The `--watch` flag will do the same thing that nodemon does, except it will rebuild the compiled `./dist/` folder instead of restarting the server.
 
+#### Using our Express Server
+
 Now, lets make sure we cancel out of any other commands (using CTRL-C) and have a regular terminal prompt to install express.
 
 ```sh
@@ -194,6 +195,8 @@ npm install express
 ```
 
 Once we have installed it, we need to create our `server.js`.
+
+##### `server.js`
 
 ```js
 import express from 'express'
@@ -276,7 +279,7 @@ Vue has some specific syntax that can be used inside of `<template>` and `<style
 
 ### Components and Props
 
-A similarity between most front-end frameworks is through the use of componenets and props. This was standardized by React.js, and thus has similar functionality.  
+A similarity between most front-end frameworks is through the use of components and props. This was standardized by React.js, and thus has similar functionality.  
 A component is simply a broken down / smaller file that handles a specific, but repeatable, part of the webpage. Think of it like a function for HTML.
 
 Usually, components live in their own folder inside `./src/`. So, make `./src/components/` to make our component files. 

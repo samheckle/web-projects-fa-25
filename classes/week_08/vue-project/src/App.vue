@@ -1,10 +1,25 @@
-<script setup></script>
+<!-- this is any javascript -->
+<script setup>
+import { ref, onMounted } from "vue"
 
+const myVariable = ref('hello')
+
+const greetings = () =>{
+  console.log('hi')
+}
+
+onMounted( ()=>{
+  console.log(document.getElementById('blue-paragraph'))
+})
+</script>
+
+<!-- this is any html -->
 <template>
-  <button>hi</button>
-  <p>
+  <button @click="greetings"> {{ myVariable }} </button>
+  <p id="blue-paragraph">
     now i have some text in here 
   </p>
 </template>
 
+<!-- this is any styles -->
 <style scoped></style>
