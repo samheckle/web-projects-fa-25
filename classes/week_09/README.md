@@ -28,7 +28,7 @@ To practice creating a Vue project, here are the same instructions from last tim
 
 1. Navigate to the folder you want to create the new project
 2. Run `npm init -y`. If this command doesn't work, run `npm init` and press enter until you are prompted for "yes"
-3. Run `npm install vue@latest`. You can name the project if you want, so I will call it `class_09_demo`. Press enter to continue.
+3. Run `npm create vue@latest`. You can name the project if you want, so I will call it `class_09_demo`. Press enter to continue. When it prompts for "Skip all example code and start with a blank Vue project?" -> Yes
 4. Change directory into your new folder: `cd class_09_demo`
 5. Add the `--watch` to the build script in `package.json`: like so `"build": "vite build --watch",`
 6. Install express `npm install express`
