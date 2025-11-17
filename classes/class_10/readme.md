@@ -59,6 +59,16 @@ Methods we have used so far in this class:
 1. Readings #3
 2. Project 5 Concept
 
+### Talks n things
+
+An Evening with Talia Cotton
+Thursday, November 20th, 7:00 - 9:00pm
+[🎟️ RSVP via Eventbrite](https://www.eventbrite.com/e/1965420125503?aff=oddtdtcreator)
+
+Laura U. Marks: Small Files for a Small World and Talismanic Media
+Friday Nov 21 2pm-3.30pm
+https://event.newschool.edu/lauraumarkssmallfilesforasmal
+
 ## Databases
 
 Setup:
