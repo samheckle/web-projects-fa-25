@@ -61,13 +61,23 @@ Methods we have used so far in this class:
 
 ### Talks n things
 
-An Evening with Talia Cotton
-Thursday, November 20th, 7:00 - 9:00pm
+> An Evening with Talia Cotton  
+Thursday, November 20th, 7:00 - 9:00pm  
 [🎟️ RSVP via Eventbrite](https://www.eventbrite.com/e/1965420125503?aff=oddtdtcreator)
 
-Laura U. Marks: Small Files for a Small World and Talismanic Media
-Friday Nov 21 2pm-3.30pm
+---
+
+> WordHack feat. April Soetarman, Elliott Etzkorn and Alejandro Crawford  
+Thursday, November 20, 2025 7:00 PM 10:00 PM   
+[Tickets $15](https://www.wonderville.nyc/events/wordhack-11-20-2025)
+
+---
+
+> Laura U. Marks: Small Files for a Small World and Talismanic Media  
+Friday Nov 21 2pm-3.30pm  
 https://event.newschool.edu/lauraumarkssmallfilesforasmal
+
+---
 
 ## Databases
 
