@@ -46,6 +46,35 @@ nano /etc/nginx/sites-enabled/yourdomain.com.conf
 
 The server block operates like an if-statement, so we want the most generic one on the bottom. We are also adding our project3 here, along with our project4. Make sure your port names are correct (they might be different from mine, so check each `server.js` file in `webserver`, `project3`, and `project4`).
 
+### Restart nginx
+
+Lastly, to check our config file is working, we need to run 
+
+```sh
+sudo nginx -t
+```
+
+And restart our nginx server
+
+```sh
+sudo systemctl reload nginx
+```
+
+If for whatever reason your nginx server says `inactive`, you can run
+```sh
+sudo systemctl start nginx
+```
+
+### Adding base url to vite config
+
+In `vite.config.js` we need to update our base url for our build:
+
+```json
+base: "https://smarmy.space/project4/",
+```
+
+And re-build (`npm run build`) and re-upload `dist/` into our cyberduck.
+
 ## Project 4 Share
 
 In the replies of the discussion post, please write feedback for each project in whatever format you find best!
