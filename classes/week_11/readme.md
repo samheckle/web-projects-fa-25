@@ -14,7 +14,7 @@
 
 ## Continue Databases
 
-Duplicate your class_10 folder and we will start building from there! It is usually easier to *not* copy the `node_modules/` folder, but whatever works for you. You can also [download the week_11 folder]() using the [github folder downloader](https://download-directory.github.io/) if that is easier. 
+Duplicate your class_10 folder and we will start building from there! It is usually easier to *not* copy the `node_modules/` folder, but whatever works for you. You can also [download the week_11 folder](https://github.com/samheckle/web-projects-fa-25/tree/main/classes/week_11) using the [github folder downloader](https://download-directory.github.io/) if that is easier. 
 
 Then, because I didn't copy the `node_modules/` folder, I need to run `npm install`. 
 
