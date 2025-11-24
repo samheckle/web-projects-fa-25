@@ -1,0 +1,19 @@
+{
+  "name": "class_10",
+  "version": "1.0.0",
+  "description": "1. LAST Nginx Configuration 2. Project 4 Share 3. Upcoming assignments 4. Databases",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@seald-io/nedb": "^4.1.2",
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "multer": "^2.0.2"
+  }
+}
